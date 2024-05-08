@@ -40,7 +40,7 @@ jobs:
 
       -
         name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v2.5.0
+        uses: goreleaser/goreleaser-action@v5.0.0
         with:
           # https://github.com/goreleaser/goreleaser/issues/3224#issuecomment-1175135264
           version: 1.9.2
